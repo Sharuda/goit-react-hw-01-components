@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const Statistics = ({ stats, title }) => {
   return (
     <section class="statistics">
-      <h2 class="title">Upload stats</h2>
+      <h2 class="title">{title ? title : ''}</h2>
 
       <ul class="stat-list">
         <li class="item">
