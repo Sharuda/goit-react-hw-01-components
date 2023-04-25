@@ -3,9 +3,8 @@ import styled from '@emotion/styled';
 export const FriendItem = styled.li`
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  gap: 42px;
-  margin: 0 auto;
+  gap: 30px;
+  padding: 4px;
 
   max-width: 100%;
   width: 360px;
