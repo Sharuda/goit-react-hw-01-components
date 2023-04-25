@@ -1,9 +1,9 @@
-import Profile from './Profile/Profile';
-import Statistics from './Statistics/Statistics';
+import { Profile } from './Profile/Profile';
+import { Statistics } from './Statistics/Statistics';
 import user from '../user.json';
 import data from '../data.json';
 
-const App = () => {
+export const App = () => {
   return (
     <div>
       <Profile
@@ -19,4 +19,4 @@ const App = () => {
   );
 };
 
-export default App;
+
